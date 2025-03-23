@@ -1,4 +1,8 @@
 module.exports = {
   root: true,
-  extends: '@react-native',
+  extends: [
+    '@react-native', 
+    '@repo/eslint-config',
+    '@repo/ui'
+  ],
 };

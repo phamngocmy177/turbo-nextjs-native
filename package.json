@@ -4,9 +4,21 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "ios": "turbo run ios",
+    "android": "turbo run android"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tamagui": "^1.125.19",
+    "@tamagui/config": "^1.125.19",
+    "@tamagui/core": "^1.125.19",
+    "@tamagui/get-button-sized": "^1.125.19"
   },
   "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
     "turbo": "^2.4.4"
