@@ -10,14 +10,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*"
+    "@repo/ui": "workspace:*",
+    "@tamagui/config": "^1.125.19",
+    "@tamagui/core": "^1.125.19",
+    "@tamagui/get-button-sized": "^1.125.19",
+    "@tamagui/vite-plugin": "^1.125.26",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tamagui": "^1.125.19"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
-    "@vitejs/plugin-react": "^4.3.4",
-    "eslint": "^9.21.0",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",

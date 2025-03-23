@@ -8,14 +8,6 @@
     "ios": "turbo run ios",
     "android": "turbo run android"
   },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "tamagui": "^1.125.19",
-    "@tamagui/config": "^1.125.19",
-    "@tamagui/core": "^1.125.19",
-    "@tamagui/get-button-sized": "^1.125.19"
-  },
   "devDependencies": {
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
